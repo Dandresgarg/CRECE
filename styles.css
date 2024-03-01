@@ -1,0 +1,2049 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;    
+    font-family: 'Raleway', sans-serif;
+    background-image: url('media/wallpaper.webp');
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+h5 {
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+header{
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+        ,url("media/footer.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+}
+
+header a:hover{
+    transform: scale(1.1);
+    color: #AEEE6B;
+}
+
+header .logo{
+    margin: 0;
+    width: 120px;
+    padding: 10px 30px;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .container p{
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    display: none;
+
+}
+
+.carousel-slide img {
+    width: 100%;  /* Establece un ancho fijo para la imagen */
+    height: 90vh; /* Establece una altura fija para la imagen */
+    object-fit: cover;
+}
+
+
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #0000008f;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: #34a853;
+}
+
+.carousel-btn-prev {
+    left: 10px;
+}
+
+.carousel-btn-next {
+    right: 10px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#Our-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-services h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img1.webp);
+    background-size: cover; 
+    background-position: center; 
+    height: 60vh;
+    margin-bottom: 32px;
+}
+
+.card-services-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-services-1:hover{
+    transform: scale(1.05);
+}
+
+
+.card-services-1 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img1.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-1 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-1 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-1 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+/*------------------------------------*/
+
+.card-services-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-2 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img2.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-2 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-2 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-2 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-2:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+.card-services-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-3 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img3.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-3 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-3 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-3 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-3:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+.card-services-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-4 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img4.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-4 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-4 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-4 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-4:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+.card-services-5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-5 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img5.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-5 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-5 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-5 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-5:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+.card-services-6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-6 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img6.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-6 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-6 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-6 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-6:hover{
+    transform: scale(1.05);
+}
+/*-------------------------------------------*/
+
+.card-services-7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-7 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img7.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-7 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-7 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-7 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-7:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+.card-services-8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-8 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img8.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-8 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-8 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-8 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-8:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+.card-services-9{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    transition: transform 0.5s ease-in-out;
+    width: 50vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-services-9 .title-card h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    border-start-start-radius:16px;
+    border-top-right-radius: 16px;
+    justify-content: center;
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+    ,url(/media/img9.webp);
+    background-size: cover; 
+    background-position: center; 
+    color: whitesmoke;
+    height: 16vh;
+}
+
+.card-services-9 .description-card{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    background-color:white;
+}
+
+.card-services-9 .subtitle-card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+}
+
+.card-services-9 .description-benefits{
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.card-services-9:hover{
+    transform: scale(1.05);
+}
+
+/*-------------------------------------------*/
+
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card h3{
+    
+}
+
+.card-1{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img1.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-2{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img2.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-3{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img3.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-4{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img4.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-5{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img5.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-6{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img6.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-7{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img7.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-8{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img8.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-9{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.580),rgba(0, 0, 0, 0.580)
+    )
+    ,url("media/img9.webp");
+    background-size: cover; 
+    background-position: center; 
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: all 0.5s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.plan{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.plan1{
+    background-color: #afee6bc0;
+    width: 80%;
+    height: 300px;
+    border-radius: 16px;
+    height: 350px;
+    
+
+}
+
+.plan1 h3{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 8px 8px;
+    
+}
+
+.plan1 h5{
+    text-align: center;
+    margin: 2px 10px;
+    margin-bottom: 24px;
+}
+
+.plan2{
+    background-color: #f22310d0;
+    width: 80%;
+    height: 300px;
+    border-radius: 16px;
+    height: 350px;
+
+}
+
+.plan2 h3{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 8px 8px;
+    
+}
+
+.plan2 h5{
+    margin: 2px 10px;
+}
+
+.plan2 h5{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+.plan3{
+    background-color: #14c2f7b7;
+    width: 80%;
+    height: 300px;
+    border-radius: 16px;
+    height: 350px;
+    margin-bottom: 32px;
+
+}
+
+.plan3 h3{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 8px 8px;
+    
+}
+
+.plan3 h5{
+    text-align: center;
+    margin: 2px 10px;
+}
+
+.plan3 h5{
+    margin-bottom: 24px;
+}
+
+.clases{
+    text-align: center;
+    width: 100%;
+
+}
+
+.clases h4{
+    width: 100%;
+    margin: 0;
+}
+
+.clases p{
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.boton-0
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.boton-0 button{
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #AEEE6B;
+    font-weight: bold;
+    
+}
+
+.boton-0 button:hover{
+    background-color: #90fda2;
+}
+
+.boton-1
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.boton-1 button{
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #f22310;
+    font-weight: bold;
+}
+
+.boton-1 button:hover{
+    background-color: #fa4a4a;
+}
+
+.boton-2
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.boton-2 button{
+    width: 100%;
+    background-color: #14C2F7;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: bold;
+}
+
+.boton-2 button:hover{
+    background-color: #53d3fa;
+}
+
+.hero-nosotros{
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+    )
+    ,url("media/women-7808776_1280.webp");
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    height: 250px;
+}
+
+.description-container{
+    display: flex;
+    text-align: center;
+    margin: 32px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.mision{
+    text-align: center;
+    background-color: #F66458;
+    height: 300px;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 32px;
+}
+
+.vision{
+    text-align: center;
+    background-color: #C1EC94;
+    height: 300px;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 32px;
+}
+
+footer{
+    background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+        )
+        ,url("media/footer.webp");
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    color: whitesmoke;
+    height: 600px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer .logo-section{
+    margin: 0;
+    width: 130px;
+    padding: 10px 30px;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-2{
+
+    margin-bottom: 16px;
+}
+
+.footer-3{
+    margin-bottom: 16px;
+}
+
+.footer-4 .form-section{
+    margin-bottom: 16px;
+}
+
+.footer-4 .form-section button{
+    background-color: #14C2F7;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 16px;
+    width: 80%;
+    margin-top: 8px;
+}
+
+.footer-4 .form-section button:hover{
+    background-color: #23a2c9;
+
+}
+.section-title{
+    color: #AEEE6B;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid #FFF; 
+
+    color: #000000;
+  }
+
+  input::placeholder,
+textarea::placeholder {
+    text-align: center;
+    color: #474747; 
+}
+
+@media (min-width: 900px){
+    .cartas{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .card-1{
+        margin: 16px;
+    }
+    
+    .card-2{
+        margin: 16px;
+    }
+    
+    .card-3{
+        margin: 16px;
+    }
+    
+    .card-4{
+        margin: 16px;
+    }
+    
+    .card-5{
+        margin: 16px;
+
+    }
+    
+    .card-6{
+        margin: 16px;
+
+    }
+    
+    .card-7{
+        margin: 16px;
+
+    }
+    
+    .card-8{
+        margin: 16px;
+
+    }
+    
+    .card-9{
+        margin: 16px;
+
+    }
+
+    .planes{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .plan1{
+        background-color: #afee6bc0;
+        width: 20vw;
+        height: 300px;
+        border-radius: 16px;
+        height: 350px;
+        margin: 0 32px;
+        
+    
+    }
+    
+    .plan1 h3{
+        text-align: center;
+        font-size: 1.3em;
+        margin: 8px 8px;
+        
+    }
+    
+    .plan1 h5{
+        text-align: center;
+        margin: 2px 10px;
+        margin-bottom: 24px;
+    }
+    
+    .plan2{
+        background-color: #f22310d0;
+        width: 20vw;
+        height: 300px;
+        border-radius: 16px;
+        height: 350px;
+        margin: 0 32px;
+    
+    }
+    
+    .plan2 h3{
+        text-align: center;
+        font-size: 1.3em;
+        margin: 8px 8px;
+        
+    }
+    
+    .plan2 h5{
+        margin: 2px 10px;
+    }
+    
+    .plan2 h5{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    
+    
+    .plan3{
+        background-color: #14c2f7b7;
+        width: 20vw;
+        height: 300px;
+        border-radius: 16px;
+        height: 350px;
+        margin-bottom: 32px;
+        margin: 0 32px;
+    
+    }
+    
+    .plan3 h3{
+        text-align: center;
+        font-size: 1.3em;
+        margin: 8px 8px;
+        
+    }
+    
+    .plan3 h5{
+        text-align: center;
+        margin: 2px 10px;
+    }
+    
+    .plan3 h5{
+        margin-bottom: 24px;
+    }
+
+    .logo{
+        width: 50px;
+        margin: 0;
+    }
+     
+    .container{
+        margin: auto;
+        display: flex;
+    }
+     
+    header{
+        background-color:#000000;
+        z-index: 100;
+        background-image: linear-gradient(
+            90deg,
+     
+            rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.77)
+        )
+        ,url("media/footer.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        position: static;
+    }
+    
+    header .logo-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    header .container{
+        display: flex;
+        flex-direction: column ;
+        z-index: 100;
+       
+    
+    }
+    
+    header nav {
+
+        display: flex;
+        text-align:start;
+        z-index: 100;
+        height: 50px;
+        flex-direction:row;
+    }
+    
+    header .logo {
+        width: 6vw;
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .links{
+
+        width: 72vw;
+        margin-right: 0;
+        text-align: end;
+        margin-top: 15px;
+    }
+    
+    header .tex-nav a {
+        padding: 20px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;
+        transition: all 0.3s;
+    }
+    
+    header .tex-nav a:hover {
+        color: rgb(136, 247, 132);
+        padding: auto;
+        z-index: 100;
+    }
+
+    footer{
+        display: flex;
+        height: 330px;
+    
+    }
+
+    .section-title{
+        margin-bottom: 40px;
+    }
+
+    footer .logo-section{
+        margin: 0;
+        width: 500px;
+        padding: 80px 30px;
+    }
+
+    .contact-info{
+        margin-bottom: 18px;
+    }
+
+    .follow-info{
+        margin-bottom: 18px;
+    }
+
+    .footer-1{
+        width: 20vw;
+    }
+
+    .footer-2{
+        width: 20vw;
+        padding-top: 32px;
+    }
+
+
+    .footer-3{
+        padding-top: 32px;
+        width: 20vw;
+    }
+
+    .footer-4{
+        padding-top: 32px;
+        width: 40vw;
+    }
+
+    #Our-services{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*-------------------------------------*/
+
+    .card-services-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    .card-services-1:hover{
+        transform: scale(1.05);
+    }
+    
+    
+    .card-services-1 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        background-size: cover; 
+        background-position: center; 
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-1 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-1 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-1 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    /*------------------------------------*/
+    
+    .card-services-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-2 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        background-size: cover; 
+        background-position: center; 
+        color: whitesmoke;
+        height: 25vh;
+        
+    }
+    
+    .card-services-2 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-2 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-2 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-2:hover{
+        transform: scale(1.05);
+    }
+    
+    /*-------------------------------------------*/
+    
+    .card-services-3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-3 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        background-size: cover; 
+        background-position: center; 
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-3 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-3 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-3 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-3:hover{
+        transform: scale(1.05);
+    }
+    
+    /*-------------------------------------------*/
+    .card-services-4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-4 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-4 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-4 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-4 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-4:hover{
+        transform: scale(1.05);
+    }
+    
+    /*-------------------------------------------*/
+    
+    .card-services-5{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-5 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-5 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-5 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-5 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-5:hover{
+        transform: scale(1.05);
+    }
+    
+    /*-------------------------------------------*/
+    
+    .card-services-6{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-6 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center; 
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-6 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-6 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-6 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-6:hover{
+        transform: scale(1.05);
+    }
+    /*-------------------------------------------*/
+    
+    .card-services-7{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-7 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center; 
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-7 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-7 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-7 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-7:hover{
+        transform: scale(1.05);
+    }
+    
+    /*-------------------------------------------*/
+    
+    .card-services-8{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-8 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        background-image: linear-gradient(
+                90deg,
+         
+                rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)
+            )
+        ,url(/media/img1.webp);
+        background-size: cover; 
+        background-position: center; 
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-8 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-8 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-8 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-8:hover{
+        transform: scale(1.05);
+    }
+    
+    /*-------------------------------------------*/
+    
+    .card-services-9{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:32px;
+        transition: transform 0.5s ease-in-out;
+        width: 25vw;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        height: 60vh;
+    }
+    
+    
+    .card-services-9 .title-card h3{
+        display: flex;
+        align-items: center;
+        border-start-start-radius:16px;
+        border-top-right-radius: 16px;
+        justify-content: center;
+        color: whitesmoke;
+        height: 25vh;
+    }
+    
+    .card-services-9 .description-card{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        background-color:white;
+        height: 15vh;
+    }
+    
+    .card-services-9 .subtitle-card h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 8vh;
+    }
+    
+    .card-services-9 .description-benefits{
+        display: flex;
+        text-align: center;
+        padding: 8px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background-color: white;
+        height: 12vh;
+    }
+    
+    .card-services-9:hover{
+        transform: scale(1.05);
+    }
+
+    .description-container{
+        display: flex;
+        text-align: center;
+        margin: 32px;
+        padding: 24px;
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 0.712);
+    }
+
+    #values{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    
+    .mision{
+        text-align: center;
+        background-color: #F66458;
+        height: 350px;
+        width: 30vw;
+        padding: 16px;
+        border-radius: 16px;
+        margin: 32px;
+    }
+
+    .mision p{
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .vision{
+        text-align: center;
+        background-color: #C1EC94;
+        height: 350px;
+        width: 30vw;
+        padding: 16px;
+        border-radius: 16px;
+        margin: 32px;
+    }
+
+    .vision p{
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
