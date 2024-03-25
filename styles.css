@@ -11,7 +11,7 @@ html {
 body{
     margin: 0;    
     font-family: 'Raleway', sans-serif;
-    background-image: url('media/wallpaper.webp');
+    background-image: url('media/wallpaper2.png');
 }
 
 h2 {
@@ -94,8 +94,8 @@ header .container p{
 }
 
 .carousel-slide img {
-    width: 100%;  /* Establece un ancho fijo para la imagen */
-    height: 90vh; /* Establece una altura fija para la imagen */
+    width: 100%;
+    height: 90vh;
     object-fit: cover;
 }
 
@@ -928,9 +928,8 @@ button{
 .plan1{
     background-color: #afee6bc0;
     width: 80%;
-    height: 300px;
     border-radius: 16px;
-    height: 350px;
+    height: 500px;
     
 
 }
@@ -951,9 +950,8 @@ button{
 .plan2{
     background-color: #f22310d0;
     width: 80%;
-    height: 300px;
     border-radius: 16px;
-    height: 350px;
+    height: 500px;
 
 }
 
@@ -977,9 +975,8 @@ button{
 .plan3{
     background-color: #14c2f7b7;
     width: 80%;
-    height: 300px;
     border-radius: 16px;
-    height: 350px;
+    height: 500px;
     margin-bottom: 32px;
 
 }
@@ -1270,10 +1267,9 @@ textarea::placeholder {
 
     .plan1{
         background-color: #afee6bc0;
-        width: 20vw;
-        height: 300px;
+        width: 30vw;
         border-radius: 16px;
-        height: 350px;
+        height: 500px;
         margin: 0 32px;
         
     
@@ -1294,10 +1290,9 @@ textarea::placeholder {
     
     .plan2{
         background-color: #f22310d0;
-        width: 20vw;
-        height: 300px;
+        width: 30vw;
+        height: 500px;
         border-radius: 16px;
-        height: 350px;
         margin: 0 32px;
     
     }
@@ -1321,10 +1316,9 @@ textarea::placeholder {
     
     .plan3{
         background-color: #14c2f7b7;
-        width: 20vw;
-        height: 300px;
+        width: 30vw;
+        height: 500px;
         border-radius: 16px;
-        height: 350px;
         margin-bottom: 32px;
         margin: 0 32px;
     
@@ -1449,18 +1443,18 @@ textarea::placeholder {
     }
 
     .footer-1{
-        width: 20vw;
+        width: 15vw;
     }
 
     .footer-2{
-        width: 20vw;
+        width: 30vw;
         padding-top: 32px;
     }
 
 
     .footer-3{
         padding-top: 32px;
-        width: 20vw;
+        width: 15svw;
     }
 
     .footer-4{
